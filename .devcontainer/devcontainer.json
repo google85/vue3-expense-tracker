@@ -1,0 +1,26 @@
+{
+    "name": "node-project",
+    "dockerComposeFile": "docker-compose.devcontainer.yml",
+    "service": "node-devcontainer",
+    "workspaceFolder": "/home/node/app",
+    "mounts": [
+        "source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/node/.ssh,type=bind,consistency=cached",
+	    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/root/.ssh,type=bind,consistency=cached",
+	    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.gitconfig,target=/home/node/.gitconfig,type=bind,consistency=cached",
+	    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.gitconfig,target=/root/.gitconfig,type=bind,consistency=cached"
+    ],
+    "customizations": {
+        "vscode": {
+            "settings": {
+            },
+
+            // Add the IDs of extensions you want installed when the container is created.
+            "extensions": [
+            ]
+        }
+    },
+    //"postCreateCommand": "cd ./src",
+    "forwardPorts": [
+        // 8000
+    ]
+}
