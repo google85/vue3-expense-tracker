@@ -3,7 +3,7 @@
 
 - 2024-03-08
     - https://youtu.be/hNPwdOZ3qFU?t=657
-    - added components [Header,Balance,etc] in traditional way
+    - added components [Header,Balance,etc] in traditional way [+ screenshots]
 
 - 2024-03-07
     - init

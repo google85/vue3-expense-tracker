@@ -6,7 +6,7 @@
 > Special credits to: Brad / Traversy Media
 > YouTube video:  https://www.youtube.com/watch?v=hNPwdOZ3qFU
 
-<img src="./screenshots/Screenshot_1.png"/>
+<img src="./screenshots/Screenshot_2.png"/>
 
 - Usage:
     - copy the `.devcontainer` folder into your project
