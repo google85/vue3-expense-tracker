@@ -11,6 +11,7 @@
     sudo npm i vue-toastification@next
     ```
     - add event emmited on form submit on add transaction
+    - done adding transaction + success toast
 
 - 2024-03-07
     - init
