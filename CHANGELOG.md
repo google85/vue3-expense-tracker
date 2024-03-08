@@ -12,6 +12,7 @@
     ```
     - add event emmited on form submit on add transaction
     - done add/remove transaction + success toast
+    - add localStorage save for transactions
 
 - 2024-03-07
     - init
