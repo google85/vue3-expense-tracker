@@ -1,6 +1,9 @@
 #### Changelog #
 *************************************
 
+- 2024-03-30
+    - added a `BASHLOG` to keep track of the commands used
+
 - 2024-03-08
     - https://youtu.be/hNPwdOZ3qFU?t=1969
     - added components [Header,Balance,etc] in traditional way [+ screenshots]
